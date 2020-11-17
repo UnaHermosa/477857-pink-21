@@ -1,0 +1,105 @@
+@mixin list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin placeholder {
+  &:placeholder {
+    font: inherit;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    color: rgba(68, 68, 68, 0.3);
+  }
+
+  &:-moz-placeholder {
+    font: inherit;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    color: rgba(68, 68, 68, 0.3);
+  }
+
+  &::-moz-placeholder {
+    font: inherit;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    color: rgba(68, 68, 68, 0.3);
+  }
+
+  &::-webkit-input-placeholder {
+    font: inherit;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    color: rgba(68, 68, 68, 0.3);
+  }
+}
+
+@mixin placeholder {
+  &:placeholder {
+    color: #000;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+
+  &:-moz-placeholder {
+    color: #000000;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+
+  &::-moz-placeholder {
+    color: #000000;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+
+  &::-webkit-input-placeholder {
+    color: #000000;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+}
+
+@mixin placeholder-hover {
+  &:placeholder {
+    color: rgba(68, 68, 68, 0.5);
+  }
+
+  &:-moz-placeholder {
+    color: rgba(68, 68, 68, 0.5);
+  }
+
+  &::-moz-placeholder {
+    color: rgba(68, 68, 68, 0.5);
+  }
+
+  &::-webkit-input-placeholder {
+    color: rgba(68, 68, 68, 0.5);
+  }
+}
+
+@mixin placeholder-error {
+  &:placeholder {
+    color: #ff0000;;
+  }
+
+  &:-moz-placeholder {
+    color: #ff0000;
+  }
+
+  &::-moz-placeholder {
+    color: #ff0000;
+  }
+
+  &::-webkit-input-placeholder {
+    color: #ff0000;
+  }
+}

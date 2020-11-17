@@ -1,0 +1,28 @@
+.review {
+  width: 100%;
+
+  @include list-reset;
+}
+
+.review__quote {
+  margin: 0;
+  line-height: 30px;
+}
+
+.review__cite-name {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 31px;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+
+.review__cite-author-info {
+  display: none;
+}
+
+.review__text {
+  margin: 0;
+}

@@ -1,0 +1,21 @@
+.reviews {
+  position: relative;
+}
+
+.reviews__wrapper {
+  padding-top: 50px;
+  padding-bottom: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.reviews__toggles {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 44px;
+  justify-content: center;
+}
+
+.reviews__controls {
+  display: none;
+}

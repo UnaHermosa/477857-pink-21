@@ -1,0 +1,20 @@
+.price {
+  padding-top: 70px;
+  padding-bottom: 49px;
+  background-color: #f2f2f2;
+}
+
+.price__wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.price__toggles {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 45px;
+}

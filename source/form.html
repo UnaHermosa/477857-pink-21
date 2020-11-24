@@ -31,20 +31,25 @@
             </li>
           </ul>
         </nav>
-        <div class="page-header__title-wrapper">
-          <h1 class="page-header__title">Конкурс на самое
+      </div>
+      <div class="introduction">
+        <div class="introduction__title-wrapper">
+          <h1 class="introduction__title">Конкурс на самое
             безбашенное
             путешествие с Пинк</h1>
         </div>
       </div>
     </header>
     <main class="page-main">
-      <div class="page-main__wrapper">
-        <section class="contest">
+      <section class="contest">
+        <h2 class="visually-hidden">Конкурс на лучшее фото!</h2>
+        <div class="contest__text-wrapper">
           <p class="contest__text">Поделитесь своей историей и получите
             шанс выиграть ценный приз — 1000
             миль на вашу бонусную карту!</p>
-          <form class="contest__form form" action="http://echo.htmlacademy.ru" method="post">
+        </div>
+        <form class="contest__form form" action="http://echo.htmlacademy.ru" method="post">
+          <div class="contest__form-wrapper">
             <fieldset class="form__block form__blok--user-info">
               <label class="form__label"> Фамилия:
                 <input type="text" name="user-lastname" placeholder="Укажите фамилию*" required>
@@ -56,8 +61,10 @@
                 <input type="text" name="user-middlename" placeholder="Ну и отчество тоже*" required>
               </label>
             </fieldset>
+          </div>
+          <div class="contest__form-wrapper">
             <fieldset class="form__block">
-              <legend class="form__legend">Ваши безбашенные
+              <legend class="form__legend">Ваши безбашенные<br>
                 достижения в путешествии</legend>
               <ul class="form__list checkbox-list">
                 <li class="checkbox-list__item">
@@ -86,9 +93,9 @@
                 </li>
               </ul>
             </fieldset>
+          </div>
+          <div class="contest__form-wrapper">
             <fieldset class="form__block">
-              <legend class="form__legend">С каким приложением
-                путешествовали?</legend>
               <label class="form__label">Номер телефона
                 <input type="tel" name="phone" placeholder="Номер, пожалуйста">
               </label>
@@ -96,6 +103,8 @@
                 <input type="email" name="email" placeholder="Введите почту*" required>
               </label>
             </fieldset>
+          </div>
+          <div class="contest__form-wrapper">
             <fieldset class="form__block">
               <legend class="form__legend">С каким приложением
                 путешествовали?</legend>
@@ -114,16 +123,18 @@
                 </li>
               </ul>
             </fieldset>
+          </div>
+          <div class="contest__form-wrapper">
             <div class="form__block">
-              <label class="form__legend" for="description">Опищите свои эмоции</label>
+              <label class="form__textarea-legend" for="description">Опищите свои эмоции</label>
               <textarea class="form__textarea" name="description" id="description" cols="30" rows="10" placeholder="Можно прям в красках, не
-              стесняясь в выражениях"></textarea>
+                стесняясь в выражениях"></textarea>
             </div>
             <button class="form__button-submit button button--submit" type="submit">Отправить форму</button>
-          </form>
-          <span class="contest__note"><sup class="contest__note-value">*</sup> — обязательные поля</span>
-        </section>
-      </div>
+            <span class="contest__note"><sup class="contest__note-value">*</sup> — обязательные поля</span>
+          </div>
+        </form>
+      </section>
     </main>
     <footer class="page-footer">
       <div class="page-footer__wrapper">
@@ -153,18 +164,20 @@
     </footer>
 
     <section class="modal succsess">
-      <div class="succsess__wrapper">
+      <div class="succsess__text-wrapper">
         <h2 class="succsess__title">Ваша заявка отправлена</h2>
         <p class="succsess__message">Спасибо за ваше участие, ваша заявка
-          уже поступила к нам. В ближайшее
-          время мы рассмотрим ее и
-          оповестим вас.</p>
-        <button class="success__button button button--modal-close">Закрыть окно</button>
+            уже поступила к нам. В ближайшее
+            время мы рассмотрим ее и
+            оповестим вас.</p>
+      </div>
+      <div class="succsess__button-wrapper">
+        <button class="succsess__button button button--modal-close">Закрыть окно</button>
       </div>
     </section>
 
     <section class="modal failure">
-      <div class="failure">
+      <div class="failure__wrapper">
         <h2 class="failure__title">Что-то пошло не так!</h2>
         <p class="failure__message">Проверьте поля, выделенные красным,
           скорее всего вы забыли их заполнить</p>

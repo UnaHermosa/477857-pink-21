@@ -1,0 +1,14 @@
+.radiobuttons-list {
+  @include list-reset;
+}
+
+.radiobuttons-list__item {
+  margin-bottom: 50px;
+  padding-left: 68px;
+  font-size: 18px;
+  line-height: 30px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

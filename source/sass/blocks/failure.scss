@@ -1,0 +1,27 @@
+.failure {
+  border-radius: 1px;
+}
+
+.failure__wrapper {
+  padding: 44px 20px 52px;
+}
+
+.failure__title {
+  margin: 0;
+  margin-bottom: 37px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.failure__message {
+  margin: 0;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.failure__button {
+  width: 100%;
+  margin: 0 auto;
+}

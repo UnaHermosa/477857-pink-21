@@ -1,0 +1,14 @@
+.checkbox-list {
+  @include list-reset;
+}
+
+.checkbox-list__item {
+  margin-bottom: 47px;
+  padding-left: 57px;
+  font-size: 18px;
+  line-height: 30px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

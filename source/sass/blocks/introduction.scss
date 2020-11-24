@@ -1,24 +1,43 @@
 .introduction {
   position: relative;
+  margin-top: -66px;
+  padding-top: 95px;
   color: #ffffff;
   background-color: #1d2631;
   background-image: url("../img/back-mobile.png");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 0 -65px;
+  background-size: cover;
+  background-position: 0 0;
+
+  &--index {
+    background-size: contain;
+  }
 }
 
 .introduction__wrapper {
-  padding-top: 29px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 38px;
 }
 
+.introduction__title {
+  margin: 0;
+  padding-bottom: 51px;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 300;
+}
+
+.introduction__title-wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
 .introduction__slogan {
   position: relative;
   margin: 0;
-  padding-bottom: 320px;
+  padding-bottom: 315px;
   font-size: 24px;
   line-height: 29px;
   font-weight: 300;

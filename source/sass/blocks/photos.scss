@@ -1,0 +1,43 @@
+.photos__image {
+  margin: 0;
+}
+
+.photos__item {
+  margin-bottom: 20px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.photos__content {
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 25px 10px 26px 17px;
+  background-color: #f2f2f2;
+}
+
+.photos__quote {
+  margin: 0;
+}
+
+.photos__author {
+  margin-bottom: 14px;
+}
+
+.photos__author-name {
+  font-weight: 700;
+  font-style: normal;
+}
+
+.photos__author-post-time {
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+.photos__post-text {
+  margin: 0;
+  margin-bottom: 25px;
+}

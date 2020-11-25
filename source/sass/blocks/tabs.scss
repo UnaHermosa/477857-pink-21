@@ -1,0 +1,30 @@
+.tabs {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.tabs__filter-list-wrapper {
+  padding-bottom: 39px;
+}
+
+.tabs__content {
+  padding-bottom: 34px;
+}
+
+.tabs__list {
+  @include list-reset;
+}
+
+.tabs__item {
+  margin-right: 35px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.tabs__range {
+  width: 87.5%;
+  margin: 0 auto;
+}

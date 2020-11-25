@@ -27,4 +27,14 @@
     border: none;
     border-radius: 1px;
   }
+
+  &--post {
+    color: #d22856;
+    border-color: #d22856;
+  }
+
+  &--reset {
+    color: rgba(40, 54, 69, 0.1);
+    border-color:  rgba(40, 54, 69, 0.1);
+  }
 }
